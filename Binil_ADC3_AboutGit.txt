@@ -1,0 +1,22 @@
+GIT Basic Commands
+
+git clone:
+	It copies an existing git repository from remote location to our local environment.
+
+git push:
+	It is used to submit the code to a remote repository.
+
+git pull:
+	It updates files from remote server to local computer.
+
+git branch:
+	It lists existing branches of the repository, and also creates a brach if a name is provided.	
+
+git commit:
+	It creates a new commit object and sets the branch to point to that new commit	
+
+git merge:
+	It merges branches into our current branch and automatically creates a new commit.
+	
+git status:
+	It shows the status of files in the local computer.
