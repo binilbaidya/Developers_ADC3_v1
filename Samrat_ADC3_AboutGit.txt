@@ -1,0 +1,20 @@
+git init
+This command is used to start a new repository.
+
+git config
+This command sets the author name and email address respectively to be used with your commits.
+
+git add
+This command adds a file to the staging area.
+
+git push
+Pushes changes to remote server
+
+git commit
+This command records or snapshots the file permanently in the version history.
+
+git status
+This command lists all the files that have to be committed.
+
+git merge
+This command merges the specified branch’s history into the current branch.
