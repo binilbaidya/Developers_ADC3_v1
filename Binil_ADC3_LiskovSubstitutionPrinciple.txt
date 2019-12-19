@@ -1,0 +1,6 @@
+Liskov Substitution Principle
+
+In Liskov Substitution Principle, it's main objective is "derived classes must be substitutable for their base classes". This principle is just a way to ensure that inheritance is used correctly.
+
+For example,   
+If there is a class called "Bird" which has the method "fly()" and "Ostrich" inherits that "Bird" class it violates the Liskov Principle as Ostrich is a bird which cannot fly. So, Ostrich should not inherit bird class so, there should be a separate class for flying and non-flying birds, and Ostrich should inherit non-flying bird class. This way, it does not violate Liskov Substitution Principle.
