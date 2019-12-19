@@ -1,0 +1,16 @@
+Open Closed Responsibilty: This responsibility states that the software entities like: class, modules, functions etc should be open for extention and closed for modification. This simply means that one should code in such a way that when there occurs a change in the future, one can simply extend the code without having to modify the original source code.
+For example: Suppose we have a shop where we give discounts to our regular customers, the code for such program would look something like this:
+	class Discount:
+		def __init__(self, customer, price):
+			self.customer=customer
+			self.price=price
+
+		def giveDiscount(self):
+			if self.customer = "Regular Customer":
+				discount= self.price*8
+
+	If we were to give discount to all the customers during the occassion of Christmas, modifying the original code would cause the violation of Open Closed Responsibilty. In order to avoid the violation, we should extend the code as per the design principle. 
+
+	class VIPDiscount(Discount):
+		def giveDiscount(self):
+			super().self.price*0.4

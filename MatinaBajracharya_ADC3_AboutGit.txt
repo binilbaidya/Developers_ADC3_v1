@@ -1,0 +1,13 @@
+Git Basic Commands:
+
+Git clone: It is downloading a local copy of a remote repository. Making changes in the copy of remote repository will not affect the original repository in any-way.
+
+Git push:It pushes the changes that the user has made on the local repository to the remote repository. Once the users have cloned the remote repository and have made the necessary changes in their local device, these changes need to be pushed to the remote repository so that they are shared and used by other users. 
+
+Git pull: It is a command used to fetch the data from the remote repository and make changes in the local repository so that it matches that content. It is mostly used when one is working in a team and we wish to know what every other developer is workin pn and what commits they have pushed to the remote repository.
+
+Merge Conflict:It is the act of taking changes from another context and combining them with our current working files. It usually occurs when one two people change a line of code of the same document and git cannot determine which the correct code is. In this case, the person itself should solve the conflict.
+
+Git branches:A branch represents an independent line of development which serve as an abstraction for the edit/stage/commit process.The git branch command lets us create, list, rename, and delete branches.
+
+Git commit: Making changes on our local repository is done by using git commit.
