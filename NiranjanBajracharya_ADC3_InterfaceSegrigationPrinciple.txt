@@ -1,0 +1,42 @@
+SOLID principle
+interface segregation principle
+in this segment of SOLID principle Robert C. Martin defines as “clients should not be forced to depend upon interface that they do not use. The goal of the Interface Segregation Principle is to reduce the side effects and frequency of required change by splitting the software into multiple independent parts. this principle is only achievable if you define your interface so that they  fit a specific client or task
+example
+in this example we apply interface segregation principle and separate the single smart device interface into three smaller interface: Printer, Fax and Scanner
+
+interface Printer{
+    void Print();
+}
+
+interface Fax{
+    void Fax();
+}
+
+interface Scanner{
+    void Scan();
+it is easier to implement classes that do not need to handle all the original functionalities of the smart device, interface like economic printer.this code is more decoupled and easier to maintain.lets re implement economic printer with this architecture:
+
+class EconomicPrinter : Printer
+{
+    public void Print()
+    {
+         // Printing
+    }
+}
+now the final all in one printer looks like:
+
+class AllInOnePrinter : Printer, Fax, Scanner
+{
+    public void Print()
+    {
+         // Printing text and image
+    }
+    public void Fax()
+    {
+         // receiving fax
+    }
+    public void Scan()
+    {
+         // Scanning image.
+    }
+}
