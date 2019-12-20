@@ -1,0 +1,28 @@
+git commands
+
+git config: 
+It is used to set user name and email in the main configuration file.
+
+git init : 
+It is used to initialise a git repository for new or existing project.
+
+git clone: 
+It is used to copy a git repository from remote source and also set the remote to original source.
+
+git status: 
+It is used to check the status of file that has changed in working directory.
+
+git add: 
+It adds a file to the staging area
+
+git push: 
+It is used to push the code to remote repository
+
+git pull: 
+It is used to update files from remote server to local computer
+
+git merge: 
+It is used to merge branches into our current branch and automatically creates a new commit
+
+git branch: 
+It lists existing branches of the repository, and also create a branch if a name is provided
